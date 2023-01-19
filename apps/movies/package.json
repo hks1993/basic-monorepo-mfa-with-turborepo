@@ -20,6 +20,8 @@
     "typescript": "^4.9.4",
     "tsconfig": "*",
     "ui": "*",
+    "store": "*",
+    "card":"*",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button, AppShell } from 'ui';
-
+import { Button, AppShell, MoviesContent } from 'ui';
 function App() {
 	return (
 		<div className='App'>
@@ -9,7 +8,7 @@ function App() {
 				title='Movies'
 				colorScheme='light'
 				routes={[
-					{ path: '/', element: () => <div> is it Home</div> },
+					{ path: '/', element: () => <MoviesContent /> },
 					{ path: '/playlist', element: () => <div> is it playlist</div> },
 				]}
 				navLinks={[
