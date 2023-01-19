@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button, AppShell, MoviesContent, PlaylistContent } from 'ui';
+import { Button, AppShell, PlaylistContent, MoviesContent } from 'ui';
 function App() {
 	return (
 		<div className='App'>
 			<Button />
 			<AppShell
-				title='Movies'
-				colorScheme='light'
+				title='Playlist'
+				colorScheme='dark'
 				routes={[
 					{ path: '/', element: MoviesContent },
 					{ path: '/playlist', element: PlaylistContent },
